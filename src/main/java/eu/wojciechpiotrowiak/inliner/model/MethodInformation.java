@@ -1,5 +1,11 @@
 package eu.wojciechpiotrowiak.inliner.model;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 public class MethodInformation {
     private final String classPath;
     private final String methodName;
